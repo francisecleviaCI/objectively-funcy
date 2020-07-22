@@ -13,33 +13,30 @@ const getFullName = function(name){
 }
 
 
-const setFirstName = function(name, value){
-  let firstName = 'Francis';  
-  name.firstName = 'Bob'; 
+const setFirstName = function(object, firstName){
+
 }
-// let result = setFirstName('Anthony');
-// result;
+
 
 
 const setAge = function(myObject, age){
-  myObject.age
+ 
 }
 // let result2 = setAge(myObject, age);
 
 const giveBirthday = function(firstName, lastName, age){
-  age = age + 1
+
 }
 // let finalAge = giveBirthday(firstName, lastname, 30);
 
 const marry = function(person1, person2){
-  if (person1.married === person2.married)
-    return true;
+
 }
 
-const divorce = function(person){
-  delete person.spouseName;
+const divorce = function(person1, person2){
+  
 }
-
+// delete person.spouseName;
 
 
 
